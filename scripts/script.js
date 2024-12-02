@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         phone: document.getElementById('phone').value,
       };
   
-      alert("Order Submitted! Check the console for JSON data.");
+      alert("Order Submitted!");
   
       console.log(JSON.stringify(updatedOrder, null, 2));
     });
