@@ -1,10 +1,10 @@
 {
     "pizzaOrder": {
-      "crust": "Thin",
+      "crust": "Stuffed",
       "size": "Medium",
-      "toppings": ["Pepperoni", "Mushrooms"],
+      "toppings": ["Pepperoni", "Mushrooms", "Olives"],
       "cheeseLevel": 5,
-      "instructions": "Extra crispy crust",
+      "instructions": "Extra crispy crust. Like, 'burn it' crispy.",
       "phone": ""
     }
   }
