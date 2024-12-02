@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pizza Builder</title>
   <!-- Link to CSS -->
-  <link rel="stylesheet" href="styles/style.css">
-  <!-- Bootstrap CSS (Optional for utility classes) -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
   <div class="container mt-3">
@@ -42,6 +42,10 @@
               <input type="radio" id="large" name="size" value="Large">
               <label for="large">Large</label>
             </div>
+            <div>
+              <input type="radio" id="insane" name="size" value="Insanely Large">
+              <label for="insane">Insanely Large</label>
+            </div>
           </div>
 
           <!-- Checkboxes for Toppings -->
@@ -50,6 +54,22 @@
             <div>
               <input type="checkbox" id="pepperoni" value="Pepperoni" checked>
               <label for="pepperoni">Pepperoni</label>
+            </div>
+            <div>
+              <input type="checkbox" id="sausage" value="Sausage" checked>
+              <label for="sausage">Sausage</label>
+            </div>
+            <div>
+              <input type="checkbox" id="bacon" value="Bacon" checked>
+              <label for="bacon">Bacon</label>
+            </div>
+            <div>
+              <input type="checkbox" id="pineapple" value="Pineapple" checked>
+              <label for="pineapple">Pineapple</label>
+            </div>
+            <div>
+              <input type="checkbox" id="peppers" value="Peppers" checked>
+              <label for="peppers">Peppers</label>
             </div>
             <div>
               <input type="checkbox" id="mushrooms" value="Mushrooms" checked>
@@ -67,7 +87,7 @@
 
           <!-- Range Slider for Cheese Level -->
           <div class="mb-3">
-            <label for="cheeseLevel" class="form-label">Cheese Level (0 to 10):</label>
+            <label for="cheeseLevel" class="form-label">Cheese Level (0 - No Cheese to 10 - Max Cheese):</label>
             <input type="range" id="cheeseLevel" class="form-range" min="0" max="10" value="5">
           </div>
 
@@ -79,9 +99,9 @@
 
           <!-- Mobile-Specific Input -->
           <div class="mb-3">
-            <label for="phone" class="form-label">Contact Number:</label>
-            <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number">
-            <small class="form-text text-muted">Mobile-specific input for phone number</small>
+            <label for="phone" class="form-label">Enter Your Phone Number:</label>
+            <input type="tel" id="phone" class="form-control" placeholder="Type your number here">
+            <small class="form-text text-muted">We'll text you when your order is ready!</small>
           </div>
 
           <!-- Submit Button -->
@@ -92,6 +112,6 @@
   </div>
 
   <!-- JavaScript -->
-  <script src="scripts/script.js"></script>
+  <script src="./scripts/script.js"></script>
 </body>
 </html>
