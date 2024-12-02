@@ -1,11 +1,13 @@
 /* General Styles */
 body {
-    background-color: #0fbe49; /* Light gray background */
-    font-family: 'Arial', sans-serif;
+    background-image: url('https://media.istockphoto.com/id/1412198876/vector/ingredients-pizza-thin-line-seamless-pattern-background-vector.jpg?s=612x612&w=0&k=20&c=7GO0fHbK_t1Hy03sLHkBX1uqLrUfHQRq0H-qlNij6Uk=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200vh;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
   }
+  
   
   /* Container Styles */
   .container {
@@ -23,7 +25,7 @@ body {
   }
   
   .card-header {
-    background-color: #007bff;
+    background-color: #ff5100;
     color: #fff;
     padding: 15px;
     text-align: center;
@@ -72,7 +74,7 @@ body {
     appearance: none;
     width: 15px;
     height: 15px;
-    background: #007bff;
+    background: #ff5100;
     border-radius: 50%;
     cursor: pointer;
   }
@@ -80,14 +82,14 @@ body {
   input[type="range"]::-moz-range-thumb {
     width: 15px;
     height: 15px;
-    background: #007bff;
+    background: #ff5100;
     border-radius: 50%;
     cursor: pointer;
   }
   
   /* Button Styles */
   button {
-    background-color: #007bff;
+    background-color: #ff5100;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -98,11 +100,11 @@ body {
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #ff5100;
   }
   
   button:active {
-    background-color: #003f7f;
+    background-color: #ff5100;
   }
   
   /* Responsive Adjustments */
@@ -120,4 +122,3 @@ body {
       padding: 8px;
     }
   }
-  
