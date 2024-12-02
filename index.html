@@ -3,20 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pizza Builder</title>
-  <!-- Link to CSS -->
+  <title>Customize Your Pizza</title>
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href=".styles/style.css">
+
 </head>
 <body>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Customize Your Pizza <i class="bi bi-pizza"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home <i class="bi bi-house"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://github.com/iarcher444">GitHub <i class="bi bi-github"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://github.com/iarcher444/dev-harry-final-project">This Repo <i class="bi bi-git"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://validator.nu/?doc=https%3A%2F%2Fiarcher444.github.io%2Fdev-harry-final-project%2F">Nu Validator <i class="bi bi-check"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
   <div class="container mt-3">
     <div class="card">
       <div class="card-header text-center">
-        <h3>Pizza Builder</h3>
+        <h3>Customize Your Pizza</h3>
       </div>
       <div class="card-body">
         <form id="pizzaForm">
+          
           <!-- Dropdown for Crust -->
           <div class="mb-3">
             <label for="crust" class="form-label">Crust Type:</label>
@@ -27,7 +56,7 @@
             </select>
           </div>
 
-          <!-- Radio Buttons for Size -->
+          <!-- Choose Size -->
           <div class="mb-3">
             <label class="form-label">Pizza Size:</label>
             <div>
@@ -111,7 +140,11 @@
     </div>
   </div>
 
-  <!-- JavaScript -->
-  <script src="./scripts/script.js"></script>
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-3 mt-4">
+    <p>&copy; Isabella Archer "Customize Your Pizza", 2024.</p>
+  
+    <!-- JavaScript -->
+  <script src=".scripts/script.js"></script>
 </body>
 </html>
